@@ -3,9 +3,10 @@
     "acceptableCameraUsage": true,
     "acceptableScreenSharingUsage": true,
     "aggressiveUserExperience": true,
-    "aggressiveUserFullScreenExperience": true,
+    "aggressiveUserFullScreenExperience": false,
     "asynchronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": true,
+    "attemptToBlockApplicationLaunches": true,
     "enforceMinorUpdates": true
   },
   "osVersionRequirements": [
