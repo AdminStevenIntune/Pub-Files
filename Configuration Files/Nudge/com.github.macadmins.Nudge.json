@@ -7,6 +7,7 @@
     "asynchronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": true,
     "attemptToBlockApplicationLaunches": true,
+    "terminateApplicationsOnLaunch": true,
     "enforceMinorUpdates": true
   },
   "osVersionRequirements": [
