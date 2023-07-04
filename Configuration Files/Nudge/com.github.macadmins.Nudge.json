@@ -93,8 +93,6 @@
         "com.microsoft.Office.Word",
         "com.microsoft.msapps",
         "com.microsoft.procsimo",
-        "com.microsoft.rdc.ios",
-        "com.microsoft.lync2013.iphone",
         "com.microsoft.Word"
     ],
     "terminateApplicationsOnLaunch": true,
