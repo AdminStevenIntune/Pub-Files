@@ -99,6 +99,7 @@
         "com.microsoft.Office.Word",
         "com.microsoft.msapps",
         "com.microsoft.procsimo",
+        "com.microsoft.Outlook",
         "com.microsoft.Word"
     ],
     "terminateApplicationsOnLaunch": true,
