@@ -157,7 +157,7 @@
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "Important Notes",
         "mainContentSubHeader": "Updates can take 15-30 minutes to complete.",
-        "mainContentText": "Please save all open documents and close all programs to prevent data loss.\nTo begin the update, click on the *Update Device* button and follow the prompts.\nIf you do not update by the due date, your device will experience a limited functionality mode, until the update is completed.\n\nFor more information about the new macOS version, hit *More Info* in the bottom left corner of this window.",
+        "mainContentText": "Please save all open documents and close all programs to prevent data loss.\nTo begin the update, click on the *Update Device* button and follow the prompts.\n\nIf you do not update by the due date, your device will experience a limited functionality mode, until the update is completed.\n\nFor more information about the new macOS version, hit *More Info* in the bottom left corner of this window.",
         "mainHeader": "Your device requires a macOS Security Update",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
