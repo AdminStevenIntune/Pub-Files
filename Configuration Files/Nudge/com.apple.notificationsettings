@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>NotificationSettings</key>
+    <array>
+      <dict>
+        <key>BundleIdentifier</key>
+        <string>com.github.macadmins.Nudge</string>
+        <key>NotificationsEnabled</key>
+        <true/>
+        <key>AlertType</key>
+        <integer>2</integer>
+        <key>ShowInLockScreen</key>
+        <true/>
+        <key>ShowInNotificationCenter</key>
+        <true/>
+        <key>BadgesEnabled</key>
+        <true/>
+        <key>SoundsEnabled</key>
+        <true/>
+      </dict>
+    </array>
+  </dict>
+</plist>
