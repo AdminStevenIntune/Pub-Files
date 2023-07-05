@@ -18,11 +18,10 @@
 ## Feedback: neiljohn@microsoft.com
 
 # Define variables
-usebingwallpaper=true # Set to true to have script fetch wallpaper from Bing
-wallpaperurl="https://numberwang.blob.core.windows.net/numberwang/macOSWallpaper.jpg"
-wallpaperdir="/Library/Desktop"
-wallpaperfile="Wallpaper.jpg"
-log="/var/log/fetchdesktopwallpaper.log"
+wallpaperurl="https://dictopsepprdprdsaep.blob.core.windows.net/nudge/appleRainbow.png"
+wallpaperdir="/Library/Nudge"
+wallpaperfile="appleRainbow.png"
+log="/var/log/fetchNudgefile.log"
 
 # start logging
 
@@ -30,7 +29,7 @@ exec 1>> $log 2>&1
 
 echo ""
 echo "##############################################################"
-echo "# $(date) | Starting download of Desktop Wallpaper"
+echo "# $(date) | Starting download of Immages"
 echo "############################################################"
 echo ""
 
@@ -49,15 +48,6 @@ fi
 ##
 ## Attempt to download the image file. No point checking if it already exists since we want to overwrite it anyway
 ##
-
-if [ "$usebingwallpaper" = true ]; then
-
-  echo "$(date) | Attempting to dertermine URL of today's Bing Wallpaper"
-  bingfileurl=( $(curl -sL https://www.bing.com | grep -Eo "th\?id=.*?.jpg" | head -n 1| sed -e "s/tmb/UHD/"))
-  wallpaperurl="https://bing.com/$bingfileurl"
-  echo "$(date) | Setting wallpaperurl to todays Bing Desktop [$wallpaperurl]"
-
-fi
 
 echo "$(date) | Downloading Wallpaper from [$wallpaperurl] to [$wallpaperdir/$wallpaperfile]"
 curl -L -o $wallpaperdir/$wallpaperfile $wallpaperurl
