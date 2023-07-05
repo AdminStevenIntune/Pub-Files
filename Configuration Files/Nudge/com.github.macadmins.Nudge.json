@@ -110,7 +110,7 @@
         "com.microsoft.Powerpoint",
         "com.microsoft.Word"
     ],
-    "terminateApplicationsOnLaunch": true,
+    "terminateApplicationsOnLaunch": false,
     "enforceMinorUpdates": true
   },
   "osVersionRequirements": [
