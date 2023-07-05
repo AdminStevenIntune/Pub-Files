@@ -18,9 +18,9 @@
 ## Feedback: neiljohn@microsoft.com
 
 # Define variables
-wallpaperurl="https://dictopsepprdprdsaep.blob.core.windows.net/nudge/appleRainbow.png"
+wallpaperurl="https://dictopsepprdprdsaep.blob.core.windows.net/nudge/vub_rgb.png"
 wallpaperdir="/Library/Nudge"
-wallpaperfile="appleRainbow.png"
+wallpaperfile="vub_rgb.png"
 log="/var/log/fetchNudgefile.log"
 
 # start logging
