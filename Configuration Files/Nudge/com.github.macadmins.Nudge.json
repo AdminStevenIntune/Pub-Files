@@ -6,7 +6,7 @@
     "aggressiveUserFullScreenExperience": false,
     "asynchronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": true,
-    "attemptToBlockApplicationLaunches": true,
+    "attemptToBlockApplicationLaunches": false,
     "blockedApplicationBundleIDs": [
         "us.zoom.xos",
         "com.cisco.webexmeetingsapp",
