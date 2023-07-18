@@ -6,10 +6,11 @@
     "aggressiveUserFullScreenExperience": false,
     "asynchronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": true,
-    "attemptToBlockApplicationLaunches": false,
+    "attemptToBlockApplicationLaunches": true,
     "blockedApplicationBundleIDs": [
         "us.zoom.xos",
         "com.cisco.webexmeetingsapp",
+        "com.spotify.client",
         "com.brave.Browser",
         "org.mozilla.firefox",
         "com.google.Chrome",
@@ -58,7 +59,6 @@
         "com.apple.podcasts",
         "com.apple.reminders",
         "com.apple.Photos",
-        "com.apple.Safari",
         "com.apple.FaceTime",
         "com.apple.Preferences",
         "com.apple.shortcuts",
@@ -81,7 +81,6 @@
         "com.microsoft.office365booker",
         "com.microsoft.scmx",
         "com.microsoft.msedge",
-        "com.microsoft.Office.Excel",
         "com.microsoft.polymer",
         "com.microsoft.officelens",
         "com.microsoft.splists",
@@ -105,10 +104,7 @@
         "com.microsoft.Office.Word",
         "com.microsoft.msapps",
         "com.microsoft.procsimo",
-        "com.microsoft.Outlook",
-        "com.microsoft.Excel",
-        "com.microsoft.Powerpoint",
-        "com.microsoft.Word"
+        "com.microsoft.Outlook"
     ],
     "terminateApplicationsOnLaunch": false,
     "enforceMinorUpdates": true
