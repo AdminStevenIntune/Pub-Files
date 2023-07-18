@@ -131,11 +131,11 @@
     "allowedDeferralsUntilForcedSecondaryQuitButton": 0,
     "approachingRefreshCycle": 6000,
     "approachingWindowTime": 120,
-    "elapsedRefreshCycle": 300,
-    "initialRefreshCycle": 18000,
+    "elapsedRefreshCycle": 10,
+    "initialRefreshCycle": 180,
     "maxRandomDelayInSeconds": 1200,
     "noTimers": false,
-    "nudgeRefreshCycle": 60,
+    "nudgeRefreshCycle": 10,
     "randomDelay": false
   },
   "userInterface": {
