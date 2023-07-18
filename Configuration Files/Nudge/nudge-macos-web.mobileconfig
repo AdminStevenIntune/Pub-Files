@@ -6,7 +6,7 @@
 		<array>
 			<dict>
 				<key>json-url</key>
-				<string>https://dictopsepprdprdsaep.blob.core.windows.net/nudge/com.github.macadmins.Nudge.json/string>
+				<string>https://dictopsepprdprdsaep.blob.core.windows.net/nudge/com.github.macadmins.Nudge.json</string>
 				<key>PayloadDisplayName</key>
 				<string>Nudge - Web Based Configuration</string>
 				<key>PayloadIdentifier</key>
